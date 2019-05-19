@@ -1,0 +1,767 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+input:focus {
+    box-shadow: 0 0 0 2px #A80C14;
+}
+textarea:focus {
+    box-shadow: 0 0 0 2px #A80C14;
+}
+.strona
+{
+    background-color: black;
+}
+.naglowek
+{
+    display: flex;
+    background-color: #242526;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.stopka
+{
+    display: flex;
+    background-color: #242526;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+}
+.logo
+{
+    padding: 5px;
+    background-image: url(grafika/cisco-logo.png);
+    background-repeat: no-repeat;
+    height: 90px;
+    min-width: 180px;
+    width: 20%;
+}
+.logo2
+{
+    margin-left: 5%;
+}
+.logowanie
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    align-items:flex-end;
+    height: 100%;
+    width: 50%;
+    min-width: 300px;
+    margin-right: 5%;
+    
+}
+.form_logowanie
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    min-width: 300px;
+    width: 80%;
+}
+.login, .haslo
+{   
+    min-width: 220px;
+    margin-right: 2%;
+}
+.blad
+{
+    height: 50px;
+}
+.wyloguj
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+}
+.a
+{
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 16px;
+    
+}
+.zaloguj
+{
+    transition: background-color 0.7s ease;
+    padding: 8px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: 'Comfortaa', sans-serif;
+    color: white;
+    background-color: #A80C14;
+    margin-right: 2%;
+}
+.zaloguj:hover
+{
+    background-color: #D90000;
+}
+.button_wyloguj
+{
+    margin-left: 13px;
+}
+.formularz
+{
+    padding: 8px;
+    font: 16px Georgia;
+    border-radius: 5px;
+    border: none;
+}
+.tresc
+{
+    width: 100%;
+    display: flex;
+    background: url(grafika/tlo.jpg) center;
+    background-size: cover;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 832px;
+    
+}
+.tresc_zapisy
+{
+    width: 100%;
+    display: flex;
+    background: black;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 832px;
+    margin-top: 10px;
+    padding: 2%;
+    min-width: 300px;
+    
+}
+.tresc_moje_kursy
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    min-height: 830px;
+    margin-top: 10px;
+    padding: 2%;
+    min-width: 300px;
+    
+}
+.tresc_panel
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    min-height: 830px;
+    margin-top: 10px;
+    padding: 0.5%;
+    min-width: 300px;
+    
+}
+.nawigacja
+{
+    width: 20%;
+    min-width: 180px;
+    padding: 0.5%;
+}
+.panel
+{
+    width: 80%;
+    background-color: black;
+    min-width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tabele
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tekst
+{
+    margin-top: 30px;
+    padding: 2%;
+    min-width: 300px;
+    width: 35%;
+    margin-left: 5%;
+}
+.rejestracja
+{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    width: 30%;
+    min-width: 320px;
+    margin-right: 5%;
+    flex-wrap: wrap;
+}
+.form_rejestracja
+{
+    margin-top: 30px;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.form_rejestracja input
+{
+    padding: 10px;
+    margin-top: 10px;
+    font: 16px Georgia;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+h1
+{
+    text-align: center;
+    font: 30px;
+    font-family: 'Comfortaa', sans-serif;
+    color: white;
+}
+h2
+{
+    text-align: center;
+    font: 18px;
+    font-family: 'Comfortaa', sans-serif;
+    color: white;
+}
+.zarejestruj
+{
+    width: 90%;
+    margin-left: 5%;
+}
+
+@media only screen and (max-width: 500px) {
+    
+}
+.b
+{
+    font: 12px;
+    font-family: 'Comfortaa', sans-serif;
+    color: white;
+}
+.c
+{
+    font: 14px;
+    font-family: 'Comfortaa', sans-serif;
+    color: white;
+    line-height: 1.4;
+}
+.d
+{
+    font: 10px;
+    font-family: 'Comfortaa', sans-serif;
+    margin-right: 5%;
+    text-align: right;
+    color: #A80C14;
+}
+.e
+{
+    font: 12px;
+    font-family: 'Comfortaa', sans-serif;
+    color: green;
+    text-align: center;
+    padding: 8px;
+}
+.g
+{
+    font: 12px;
+    font-family: 'Comfortaa', sans-serif;
+    color: red;
+    text-align: center;
+    padding: 8px;
+}
+.select{
+    -webkit-appearance: button;
+    -webkit-border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-user-select: none;
+    background-image: url(grafika/strzalka.png);
+    background-position: 97% center;
+    background-repeat: no-repeat;
+    border: none;
+    color: black;
+    font-size: inherit;
+    margin: 20px;
+    overflow: hidden;
+    padding: 5px 10px;
+    width: 65%;
+}
+.select2{
+    -webkit-appearance: button;
+    -webkit-border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-user-select: none;
+    background-image: url(grafika/strzalka.png);
+    background-position: 97% center;
+    background-repeat: no-repeat;
+    border: none;
+    color: black;
+    font-size: inherit;
+    margin: 10px;
+    overflow: hidden;
+    padding: 5px 10px;
+    width: 65%;
+    max-width: 200px;
+}
+.kursy_propozycje
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    min-height: 350px;
+}
+.propozycja
+{
+    margin: 5px;
+    height: 520px;
+    width: 300px;
+    border: none;
+}
+
+
+.container {
+  display: block;
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+    color: white;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.container input {
+  opacity: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300px;
+  width: 300px;
+  background-image: url(grafika/cisco_logo.png);
+  background-size: cover;
+  border-radius: 5%;
+}
+
+.container:hover input ~ .checkmark {
+    border-radius: 5%;
+  border: 5px solid gray;
+}
+
+.container input:checked ~ .checkmark {
+ border-radius: 5%;
+ background-color: #A80C14;
+    border: 5px solid #A80C14;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.form_zapisy
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.kurs
+{
+    margin-bottom: 20px;
+}
+.kursy
+{
+    width: 100%;
+    height: 100px;
+}
+.moje_kursy
+{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    min-height: 200px;
+    min-width: 400px;
+}
+.moje_grupy
+{
+    padding: 2%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+    min-height: 200px;
+    min-width: 795px;
+}
+.podpis
+{
+    position: relative;
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+    margin-top:288px; 
+    font-size: 26px;
+    color: white;
+}
+.opis
+{
+    position: relative;
+    font-family: 'Comfortaa', sans-serif;
+    text-align: justify;
+    width: 98%;
+    margin-top:10px; 
+    font-size: 14px;
+    color: white;
+}
+.button_dalej
+{
+    margin-left:40%;
+    margin-right:40%;
+    height: 35px;
+}
+.kursy_dni
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    min-height: 200px;
+}
+
+.container2 input {
+  opacity: 0;
+}
+
+.checkmark2 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-image: url(grafika/Poniedzialek.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+.container2:hover input ~ .checkmark2 {
+    border-radius: 50%;
+  border: 5px solid gray;
+}
+
+.container2 input:checked ~ .checkmark2 {
+ border-radius: 50%;
+ border: 5px solid #A80C14;
+}
+
+.checkmark2:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container2 input:checked ~ .checkmark2:after {
+  display: block;
+}
+.propozycja2
+{
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    border: none;
+}
+.zapisz
+{
+    margin-top: 20px;
+}
+.tabela		      
+{ 
+  border-spacing: 1; 
+  border-collapse: collapse; 
+  background:white;
+  overflow:hidden;
+  max-width:800px; 
+  width:100%;
+  margin:0 auto;
+  font-size: 16px;
+  font-family: 'Alegreya', sans-serif;
+  padding:20px;
+}
+.tabela2	      
+{ 
+  border-spacing: 1; 
+  border-collapse: collapse; 
+  background:white;
+  overflow:hidden;
+  max-width:1200px; 
+  width:100%;
+  margin:0 auto;
+  font-size: 16px;
+  font-family: 'Alegreya', sans-serif;
+  padding:20px;
+}
+
+table
+{
+     border-radius:8px;
+}
+
+
+  td,th  
+    { 
+      padding:8px;
+      min-width: 120px;
+    }
+
+  thead tr        
+  {
+    height:60px;
+    background:#A80C14;
+    font-size:16px;
+  }
+thead
+{
+    background:#A80C14;
+}
+  
+  tbody tr        
+    { 
+      height:48px; 
+    border-bottom:1px solid #242526 ;
+  }
+th
+{
+    font: 20px 'Comfortaa', sans-serif;
+    color: white;
+}
+ 	td,th 					
+{ 
+    text-align:left;
+}
+.grupy
+{
+    background: #1851A1;
+}
+.grupy tr
+{
+    background: #1851A1;
+}
+.h
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.z
+{
+    width: 100%;
+    min-width: 300px;
+}
+.przycisk
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.zapisz_sie
+{
+    width: 300px;
+    height: 50px;
+}
+.menu
+{
+    transition: background-color 0.7s ease;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: 'Comfortaa', sans-serif;
+    color: white;
+    background-color: #A80C14;
+    margin-right: 2%;
+    margin-top: 2px;
+}
+.menu:hover
+{
+    background-color: #D90000;
+}
+.panel_lewy
+{
+    padding: 0.5%;
+    width: 50%;
+    min-width: 350px;
+    min-height: 500px;
+}
+.scroll
+{
+     padding: 0.5%;
+    width: 50%;
+    min-width: 750px;
+    height: 755px;
+    overflow: auto;
+}
+.panel_prawy
+{
+    padding: 0.5%;
+    width: 50%;
+    min-width: 250px;
+}
+.form_dodaj
+{
+    min-width: 250px;
+    margin-top: 30px;
+    margin-left: 5%;
+    width: 90%;
+    margin-bottom: 25px;
+}
+.form_dodaj input
+{
+    padding: 10px;
+    margin-top: 10px;
+    font: 16px Georgia;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+.form_dodaj2
+{
+    min-width: 300px;
+    margin-top: 30px;
+    width: 50%;
+    margin-bottom: 25px;
+}
+.form_dodaj2 input
+{
+    padding: 10px;
+    margin-top: 10px;
+    font: 16px Georgia;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+.button_dodaj
+{
+    width: 60%;
+    margin-left: 20%;
+}
+.container3 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+    color: white;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container3 input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container3:hover input ~ .checkmark3 {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container3 input:checked ~ .checkmark3 {
+  background-color: #A80C14;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark3:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container3 input:checked ~ .checkmark3:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container3 .checkmark3:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+tbody div{
+    overflow:scroll;
+    height:500px;
+}
+.tresc_grupy
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.text {
+    width: 100%;
+    height: 100px;
+    padding: 10px;;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+}
+.form_uzytkownicy
+{
+    width: 300px;
+    margin: 0 auto;
+}
